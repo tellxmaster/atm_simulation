@@ -1,0 +1,21 @@
+
+html, body{
+    background-image: url('../images/background.jpg');
+}
+
+.operation{
+    min-height: 200px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    box-shadow: 0.5 0.5 0.5 #ccc;
+    transition: background-color 200ms ease-in-out;
+}
+
+.operation:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 200ms ease-in;
+}
+
+.modal-backdrop.show {
+    opacity: 0.5; /* Ajusta la opacidad para el fondo oscuro del modal */
+}
